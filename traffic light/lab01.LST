@@ -1,4 +1,4 @@
-A51 MACRO ASSEMBLER  LAB01                                                                03/16/2020 01:01:01 PAGE     1
+A51 MACRO ASSEMBLER  LAB01                                                                03/16/2020 15:14:25 PAGE     1
 
 
 MACRO ASSEMBLER A51 V8.02
@@ -12,291 +12,155 @@ LOC  OBJ            LINE     SOURCE
 0030                   3             ORG 30H
 0030 759000            4     MAIN:   MOV P1,#00H
 0033 900200            5             MOV DPTR,#200H
-0036 759024            6     A1:     MOV P1,#24H
-0039 758011            7             MOV P0,#11H
-003C 75A0A4            8             MOV P2,#0A4H
-                       9             
-003F 75B090           10              MOV P3,#90H
-0042 51BB             11             ACALL DELAY
-0044 75B080           12              MOV P3,#80H
-0047 51BB             13             ACALL DELAY
-0049 75B0F8           14              MOV P3,#0F8H
-004C 51BB             15             ACALL DELAY
-004E 75B082           16              MOV P3,#82H
-0051 51BB             17             ACALL DELAY
-0053 75B092           18              MOV P3,#92H
-0056 51BB             19             ACALL DELAY
-0058 75B099           20              MOV P3,#99H
-005B 51BB             21             ACALL DELAY
-005D 75B0B0           22              MOV P3,#0B0H
-0060 51BB             23             ACALL DELAY
-0062 75B0A4           24              MOV P3,#0A4H
-0065 51BB             25             ACALL DELAY
-0067 75B0F9           26              MOV P3,#0F9H
-006A 51BB             27             ACALL DELAY
-006C 75B040           28               MOV P3,#40H
-006F 75A0F9           29              MOV P2,#0F9H
-                      30             
-0072 75B090           31              MOV P3,#90H
-0075 51BB             32             ACALL DELAY
-0077 75B080           33              MOV P3,#80H
-007A 51BB             34             ACALL DELAY
-007C 75B0F8           35              MOV P3,#0F8H
-007F 51BB             36             ACALL DELAY
-0081 75B082           37              MOV P3,#82H
-0084 51BB             38             ACALL DELAY
-0086 75B092           39              MOV P3,#92H
-0089 51BB             40             ACALL DELAY
-008B 75B099           41              MOV P3,#99H
-008E 51BB             42             ACALL DELAY
-0090 75B0B0           43              MOV P3,#0B0H
-0093 51BB             44             ACALL DELAY
-0095 75B0A4           45              MOV P3,#0A4H
-0098 51BB             46             ACALL DELAY
-009A 75B0F9           47              MOV P3,#0F9H
-009D 51BB             48             ACALL DELAY
-009F 75B040           49               MOV P3,#40H
-00A2 75A040           50              MOV P2,#40H
-                      51             
-00A5 75B090           52              MOV P3,#90H
-00A8 51BB             53             ACALL DELAY
-00AA 75B080           54              MOV P3,#80H
-00AD 51BB             55             ACALL DELAY
-00AF 75B0F8           56              MOV P3,#0F8H
-00B2 51BB             57             ACALL DELAY
-00B4 75B082           58              MOV P3,#82H
-A51 MACRO ASSEMBLER  LAB01                                                                03/16/2020 01:01:01 PAGE     2
+                       6     
+0036 75900A            7     A1:     MOV P1,#0AH
+                       8             
+0039 75A0A4            9             MOV P2,#0A4H
+                      10             
+003C 75B090           11              MOV P3,#90H
+003F 3171             12             ACALL DELAY
+0041 75B080           13              MOV P3,#80H
+0044 3171             14             ACALL DELAY
+0046 75B0F8           15              MOV P3,#0F8H
+0049 3171             16             ACALL DELAY
+004B 75B082           17              MOV P3,#82H
+004E 3171             18             ACALL DELAY
+0050 75B092           19              MOV P3,#92H
+0053 3171             20             ACALL DELAY
+0055 75B099           21              MOV P3,#99H
+0058 3171             22             ACALL DELAY
+005A 75B0B0           23              MOV P3,#0B0H
+005D 3171             24             ACALL DELAY
+005F 75B0A4           25              MOV P3,#0A4H
+0062 3171             26             ACALL DELAY
+0064 75B0F9           27              MOV P3,#0F9H
+0067 3171             28             ACALL DELAY
+0069 75B040           29               MOV P3,#40H
+006C 75A0F9           30              MOV P2,#0F9H
+                      31             
+006F 75B090           32              MOV P3,#90H
+0072 3171             33             ACALL DELAY
+0074 75B080           34              MOV P3,#80H
+0077 3171             35             ACALL DELAY
+0079 75B0F8           36              MOV P3,#0F8H
+007C 3171             37             ACALL DELAY
+007E 75B082           38              MOV P3,#82H
+0081 3171             39             ACALL DELAY
+0083 75B092           40              MOV P3,#92H
+0086 3171             41             ACALL DELAY
+0088 75B099           42              MOV P3,#99H
+008B 3171             43             ACALL DELAY
+008D 75B0B0           44              MOV P3,#0B0H
+0090 3171             45             ACALL DELAY
+0092 75B0A4           46              MOV P3,#0A4H
+0095 3171             47             ACALL DELAY
+0097 75B0F9           48              MOV P3,#0F9H
+009A 3171             49             ACALL DELAY
+009C 75B040           50               MOV P3,#40H
+009F 75A040           51             MOV P2,#40H
+                      52             
+00A2 75B090           53              MOV P3,#90H
+00A5 3171             54             ACALL DELAY
+00A7 75B080           55              MOV P3,#80H
+00AA 3171             56             ACALL DELAY
+00AC 75B0F8           57              MOV P3,#0F8H
+00AF 3171             58             ACALL DELAY
+A51 MACRO ASSEMBLER  LAB01                                                                03/16/2020 15:14:25 PAGE     2
 
-00B7 51BB             59             ACALL DELAY
-00B9 75B092           60              MOV P3,#92H
-00BC 51BB             61             ACALL DELAY
-00BE 75B099           62              MOV P3,#99H
-00C1 51BB             63             ACALL DELAY
-00C3 75B0B0           64              MOV P3,#0B0H
-00C6 51BB             65             ACALL DELAY
-00C8 75B0A4           66              MOV P3,#0A4H
-00CB 51BB             67             ACALL DELAY
-00CD 75B0F9           68              MOV P3,#0F9H
-00D0 51BB             69             ACALL DELAY
-00D2 75B040           70               MOV P3,#40H
-                      71     
+00B1 75B082           59              MOV P3,#82H
+00B4 3171             60             ACALL DELAY
+00B6 75B092           61              MOV P3,#92H
+00B9 3171             62             ACALL DELAY
+00BB 75B099           63              MOV P3,#99H
+00BE 3171             64             ACALL DELAY
+00C0 75B0B0           65              MOV P3,#0B0H
+00C3 3171             66             ACALL DELAY
+00C5 75B0A4           67              MOV P3,#0A4H
+00C8 3171             68             ACALL DELAY
+00CA 75B0F9           69              MOV P3,#0F9H
+00CD 3171             70             ACALL DELAY
+00CF 75B040           71               MOV P3,#40H
                       72     
-00D5 759014           73     B1:     MOV P1,#14H
-00D8 75800C           74             MOV P0,#0CH
-00DB 75A000           75             MOV P2,#00H
-00DE 75B000           76             MOV P3,#00H
-00E1 75A0A4           77            MOV P2,#0A4H
-                      78             
-00E4 75B090           79              MOV P3,#90H
-00E7 51BB             80             ACALL DELAY
-00E9 75B080           81              MOV P3,#80H
-00EC 51BB             82             ACALL DELAY
-00EE 75B0F8           83              MOV P3,#0F8H
-00F1 51BB             84             ACALL DELAY
-00F3 75B082           85              MOV P3,#82H
-00F6 51BB             86             ACALL DELAY
-00F8 75B092           87              MOV P3,#92H
-00FB 51BB             88             ACALL DELAY
-00FD 75B099           89              MOV P3,#99H
-0100 51BB             90             ACALL DELAY
-0102 75B0B0           91              MOV P3,#0B0H
-0105 51BB             92             ACALL DELAY
-0107 75B0A4           93              MOV P3,#0A4H
-010A 51BB             94             ACALL DELAY
-010C 75B0F9           95              MOV P3,#0F9H
-010F 51BB             96             ACALL DELAY
-0111 75B040           97               MOV P3,#40H
-0114 75A0F9           98              MOV P2,#0F9H
-                      99             
-0117 75B090          100              MOV P3,#90H
-011A 51BB            101             ACALL DELAY
-011C 75B080          102              MOV P3,#80H
-011F 51BB            103             ACALL DELAY
-0121 75B0F8          104              MOV P3,#0F8H
-0124 51BB            105             ACALL DELAY
-0126 75B082          106              MOV P3,#82H
-0129 51BB            107             ACALL DELAY
-012B 75B092          108              MOV P3,#92H
-012E 51BB            109             ACALL DELAY
-0130 75B099          110              MOV P3,#99H
-0133 51BB            111             ACALL DELAY
-0135 75B0B0          112              MOV P3,#0B0H
-0138 51BB            113             ACALL DELAY
-013A 75B0A4          114              MOV P3,#0A4H
-013D 51BB            115             ACALL DELAY
-013F 75B0F9          116              MOV P3,#0F9H
-0142 51BB            117             ACALL DELAY
-0144 75B040          118               MOV P3,#40H
-0147 75A040          119              MOV P2,#40H
-                     120             
-014A 75B090          121              MOV P3,#90H
-014D 51BB            122             ACALL DELAY
-014F 75B080          123              MOV P3,#80H
-0152 51BB            124             ACALL DELAY
-A51 MACRO ASSEMBLER  LAB01                                                                03/16/2020 01:01:01 PAGE     3
+                      73     
+00D2 759021           74      B1:    MOV P1,#21H
+                      75             
+00D5 75A0A4           76             MOV P2,#0A4H
+                      77             
+00D8 75B090           78              MOV P3,#90H
+00DB 3171             79             ACALL DELAY
+00DD 75B080           80              MOV P3,#80H
+00E0 3171             81             ACALL DELAY
+00E2 75B0F8           82              MOV P3,#0F8H
+00E5 3171             83             ACALL DELAY
+00E7 75B082           84              MOV P3,#82H
+00EA 3171             85             ACALL DELAY
+00EC 75B092           86              MOV P3,#92H
+00EF 3171             87             ACALL DELAY
+00F1 75B099           88              MOV P3,#99H
+00F4 3171             89             ACALL DELAY
+00F6 75B0B0           90              MOV P3,#0B0H
+00F9 3171             91             ACALL DELAY
+00FB 75B0A4           92              MOV P3,#0A4H
+00FE 3171             93             ACALL DELAY
+0100 75B0F9           94              MOV P3,#0F9H
+0103 3171             95             ACALL DELAY
+0105 75B040           96               MOV P3,#40H
+0108 75A0F9           97              MOV P2,#0F9H
+                      98             
+010B 75B090           99              MOV P3,#90H
+010E 3171            100             ACALL DELAY
+0110 75B080          101              MOV P3,#80H
+0113 3171            102             ACALL DELAY
+0115 75B0F8          103              MOV P3,#0F8H
+0118 3171            104             ACALL DELAY
+011A 75B082          105              MOV P3,#82H
+011D 3171            106             ACALL DELAY
+011F 75B092          107              MOV P3,#92H
+0122 3171            108             ACALL DELAY
+0124 75B099          109              MOV P3,#99H
+0127 3171            110             ACALL DELAY
+0129 75B0B0          111              MOV P3,#0B0H
+012C 3171            112             ACALL DELAY
+012E 75B0A4          113              MOV P3,#0A4H
+0131 3171            114             ACALL DELAY
+0133 75B0F9          115              MOV P3,#0F9H
+0136 3171            116             ACALL DELAY
+0138 75B040          117               MOV P3,#40H
+013B 75A040          118              MOV P2,#40H
+                     119             
+013E 75B090          120              MOV P3,#90H
+0141 3171            121             ACALL DELAY
+0143 75B080          122              MOV P3,#80H
+0146 3171            123             ACALL DELAY
+0148 75B0F8          124              MOV P3,#0F8H
+A51 MACRO ASSEMBLER  LAB01                                                                03/16/2020 15:14:25 PAGE     3
 
-0154 75B0F8          125              MOV P3,#0F8H
-0157 51BB            126             ACALL DELAY
-0159 75B082          127              MOV P3,#82H
-015C 51BB            128             ACALL DELAY
-015E 75B092          129              MOV P3,#92H
-0161 51BB            130             ACALL DELAY
-0163 75B099          131              MOV P3,#99H
-0166 51BB            132             ACALL DELAY
-0168 75B0B0          133              MOV P3,#0B0H
-016B 51BB            134             ACALL DELAY
-016D 75B0A4          135              MOV P3,#0A4H
-0170 51BB            136             ACALL DELAY
-0172 75B0F9          137              MOV P3,#0F9H
-0175 51BB            138             ACALL DELAY
-0177 75B040          139               MOV P3,#40H
-                     140     
-017A 75900A          141     C1:     MOV P1,#0AH
-017D 758024          142             MOV P0,#24H
-0180 75A0A4          143             MOV P2,#0A4H
-                     144             
-0183 75B090          145              MOV P3,#90H
-0186 51BB            146             ACALL DELAY
-0188 75B080          147              MOV P3,#80H
-018B 51BB            148             ACALL DELAY
-018D 75B0F8          149              MOV P3,#0F8H
-0190 51BB            150             ACALL DELAY
-0192 75B082          151              MOV P3,#82H
-0195 51BB            152             ACALL DELAY
-0197 75B092          153              MOV P3,#92H
-019A 51BB            154             ACALL DELAY
-019C 75B099          155              MOV P3,#99H
-019F 51BB            156             ACALL DELAY
-01A1 75B0B0          157              MOV P3,#0B0H
-01A4 51BB            158             ACALL DELAY
-01A6 75B0A4          159              MOV P3,#0A4H
-01A9 51BB            160             ACALL DELAY
-01AB 75B0F9          161              MOV P3,#0F9H
-01AE 51BB            162             ACALL DELAY
-01B0 75B040          163               MOV P3,#40H
-01B3 75A0F9          164              MOV P2,#0F9H
-                     165             
-01B6 75B090          166              MOV P3,#90H
-01B9 51BB            167             ACALL DELAY
-01BB 75B080          168              MOV P3,#80H
-01BE 51BB            169             ACALL DELAY
-01C0 75B0F8          170              MOV P3,#0F8H
-01C3 51BB            171             ACALL DELAY
-01C5 75B082          172              MOV P3,#82H
-01C8 51BB            173             ACALL DELAY
-01CA 75B092          174              MOV P3,#92H
-01CD 51BB            175             ACALL DELAY
-01CF 75B099          176              MOV P3,#99H
-01D2 51BB            177             ACALL DELAY
-01D4 75B0B0          178              MOV P3,#0B0H
-01D7 51BB            179             ACALL DELAY
-01D9 75B0A4          180              MOV P3,#0A4H
-01DC 51BB            181             ACALL DELAY
-01DE 75B0F9          182              MOV P3,#0F9H
-01E1 51BB            183             ACALL DELAY
-01E3 75B040          184               MOV P3,#40H
-01E6 75A040          185             MOV P2,#40H
-                     186             
-01E9 75B090          187              MOV P3,#90H
-01EC 51BB            188             ACALL DELAY
-01EE 75B080          189              MOV P3,#80H
-01F1 51BB            190             ACALL DELAY
-A51 MACRO ASSEMBLER  LAB01                                                                03/16/2020 01:01:01 PAGE     4
-
-01F3 75B0F8          191              MOV P3,#0F8H
-01F6 51BB            192             ACALL DELAY
-01F8 75B082          193              MOV P3,#82H
-01FB 51BB            194             ACALL DELAY
-01FD 75B092          195              MOV P3,#92H
-0200 51BB            196             ACALL DELAY
-0202 75B099          197              MOV P3,#99H
-0205 51BB            198             ACALL DELAY
-0207 75B0B0          199              MOV P3,#0B0H
-020A 51BB            200             ACALL DELAY
-020C 75B0A4          201              MOV P3,#0A4H
-020F 51BB            202             ACALL DELAY
-0211 75B0F9          203              MOV P3,#0F9H
-0214 51BB            204             ACALL DELAY
-0216 75B040          205               MOV P3,#40H
-                     206     
-0219 759021          207     D1:     MOV P1,#21H
-021C 758022          208             MOV P0,#22H
-021F 75A0A4          209             MOV P2,#0A4H
-                     210             
-0222 75B090          211              MOV P3,#90H
-0225 51BB            212             ACALL DELAY
-0227 75B080          213              MOV P3,#80H
-022A 51BB            214             ACALL DELAY
-022C 75B0F8          215              MOV P3,#0F8H
-022F 51BB            216             ACALL DELAY
-0231 75B082          217              MOV P3,#82H
-0234 51BB            218             ACALL DELAY
-0236 75B092          219              MOV P3,#92H
-0239 51BB            220             ACALL DELAY
-023B 75B099          221              MOV P3,#99H
-023E 51BB            222             ACALL DELAY
-0240 75B0B0          223              MOV P3,#0B0H
-0243 51BB            224             ACALL DELAY
-0245 75B0A4          225              MOV P3,#0A4H
-0248 51BB            226             ACALL DELAY
-024A 75B0F9          227              MOV P3,#0F9H
-024D 51BB            228             ACALL DELAY
-024F 75B040          229               MOV P3,#40H
-0252 75A0F9          230              MOV P2,#0F9H
-                     231             
-0255 75B090          232              MOV P3,#90H
-0258 51BB            233             ACALL DELAY
-025A 75B080          234              MOV P3,#80H
-025D 51BB            235             ACALL DELAY
-025F 75B0F8          236              MOV P3,#0F8H
-0262 51BB            237             ACALL DELAY
-0264 75B082          238              MOV P3,#82H
-0267 51BB            239             ACALL DELAY
-0269 75B092          240              MOV P3,#92H
-026C 51BB            241             ACALL DELAY
-026E 75B099          242              MOV P3,#99H
-0271 51BB            243             ACALL DELAY
-0273 75B0B0          244              MOV P3,#0B0H
-0276 51BB            245             ACALL DELAY
-0278 75B0A4          246              MOV P3,#0A4H
-027B 51BB            247             ACALL DELAY
-027D 75B0F9          248              MOV P3,#0F9H
-0280 51BB            249             ACALL DELAY
-0282 75B040          250               MOV P3,#40H
-0285 75A040          251              MOV P2,#40H
-                     252             
-0288 75B090          253              MOV P3,#90H
-028B 51BB            254             ACALL DELAY
-028D 75B080          255              MOV P3,#80H
-0290 51BB            256             ACALL DELAY
-A51 MACRO ASSEMBLER  LAB01                                                                03/16/2020 01:01:01 PAGE     5
-
-0292 75B0F8          257              MOV P3,#0F8H
-0295 51BB            258             ACALL DELAY
-0297 75B082          259              MOV P3,#82H
-029A 51BB            260             ACALL DELAY
-029C 75B092          261              MOV P3,#92H
-029F 51BB            262             ACALL DELAY
-02A1 75B099          263              MOV P3,#99H
-02A4 51BB            264             ACALL DELAY
-02A6 75B0B0          265              MOV P3,#0B0H
-02A9 51BB            266             ACALL DELAY
-02AB 75B0A4          267              MOV P3,#0A4H
-02AE 51BB            268             ACALL DELAY
-02B0 75B0F9          269              MOV P3,#0F9H
-02B3 51BB            270             ACALL DELAY
-02B5 75B040          271               MOV P3,#40H
-02B8 020030          272              LJMP MAIN
-02BB 7C32            273     DELAY:  MOV R4,#50
-02BD 7D20            274     H3:     MOV R5,#20H
-02BF 7EFF            275     H2:     MOV R6,#0FFH
-02C1 DEFE            276     H1:     DJNZ R6,H1
-02C3 DDFA            277             DJNZ R5,H2
-02C5 DCF6            278             DJNZ R4,H3
-02C7 22              279             RET        
-                     280               
-*** WARNING #A41 IN 280 (lab01.asm, LINE 280): MISSING 'END' STATEMENT
-A51 MACRO ASSEMBLER  LAB01                                                                03/16/2020 01:01:01 PAGE     6
+014B 3171            125             ACALL DELAY
+014D 75B082          126              MOV P3,#82H
+0150 3171            127             ACALL DELAY
+0152 75B092          128              MOV P3,#92H
+0155 3171            129             ACALL DELAY
+0157 75B099          130              MOV P3,#99H
+015A 3171            131             ACALL DELAY
+015C 75B0B0          132              MOV P3,#0B0H
+015F 3171            133             ACALL DELAY
+0161 75B0A4          134              MOV P3,#0A4H
+0164 3171            135             ACALL DELAY
+0166 75B0F9          136              MOV P3,#0F9H
+0169 3171            137             ACALL DELAY
+016B 75B040          138               MOV P3,#40H
+                     139     
+016E 020030          140              LJMP MAIN
+0171 7C32            141     DELAY:  MOV R4,#50
+0173 7D20            142     H3:     MOV R5,#20H
+0175 7EFF            143     H2:     MOV R6,#0FFH
+0177 DEFE            144     H1:     DJNZ R6,H1
+0179 DDFA            145             DJNZ R5,H2
+017B DCF6            146             DJNZ R4,H3
+017D 22              147             RET        
+                     148               
+*** WARNING #A41 IN 148 (lab01.asm, LINE 148): MISSING 'END' STATEMENT
+A51 MACRO ASSEMBLER  LAB01                                                                03/16/2020 15:14:25 PAGE     4
 
 SYMBOL TABLE LISTING
 ------ ----- -------
@@ -305,15 +169,12 @@ SYMBOL TABLE LISTING
 N A M E             T Y P E  V A L U E   ATTRIBUTES
 
 A1 . . . . . . . .  C ADDR   0036H   A   
-B1 . . . . . . . .  C ADDR   00D5H   A   
-C1 . . . . . . . .  C ADDR   017AH   A   
-D1 . . . . . . . .  C ADDR   0219H   A   
-DELAY. . . . . . .  C ADDR   02BBH   A   
-H1 . . . . . . . .  C ADDR   02C1H   A   
-H2 . . . . . . . .  C ADDR   02BFH   A   
-H3 . . . . . . . .  C ADDR   02BDH   A   
+B1 . . . . . . . .  C ADDR   00D2H   A   
+DELAY. . . . . . .  C ADDR   0171H   A   
+H1 . . . . . . . .  C ADDR   0177H   A   
+H2 . . . . . . . .  C ADDR   0175H   A   
+H3 . . . . . . . .  C ADDR   0173H   A   
 MAIN . . . . . . .  C ADDR   0030H   A   
-P0 . . . . . . . .  D ADDR   0080H   A   
 P1 . . . . . . . .  D ADDR   0090H   A   
 P2 . . . . . . . .  D ADDR   00A0H   A   
 P3 . . . . . . . .  D ADDR   00B0H   A   

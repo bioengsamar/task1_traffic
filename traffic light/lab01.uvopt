@@ -181,8 +181,8 @@
       <Focus>0</Focus>
       <ColumnNumber>10</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1</TopLine>
-      <CurrentLine>1</CurrentLine>
+      <TopLine>58</TopLine>
+      <CurrentLine>75</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\lab01.asm</PathWithFileName>
       <FilenameWithoutPath>lab01.asm</FilenameWithoutPath>
@@ -1535,8 +1535,8 @@
         <Doc>
           <Name>.\lab01.asm</Name>
           <ColumnNumber>10</ColumnNumber>
-          <TopLine>1</TopLine>
-          <CurrentLine>1</CurrentLine>
+          <TopLine>58</TopLine>
+          <CurrentLine>75</CurrentLine>
         </Doc>
       </Documents>
     </MDIGroup>

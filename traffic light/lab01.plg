@@ -1,0 +1,16 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\traffic light\lab01.uvproj
+Project File Date:  03/16/2020
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling lab01.asm...
+lab01.asm(280): warning A41: MISSING 'END' STATEMENT
+linking...
+Program Size: data=8.0 xdata=0 code=712
+creating hex file from "lab01"...
+"lab01" - 0 Error(s), 1 Warning(s).
